@@ -14,3 +14,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+nav {
+  background-color: black;
+  padding: 16px 32px;
+  color: white;
+}
+
+
+nav a {
+  margin-right: 16px;
+  color: white; 
+  padding: 16px; 
+  text-decoration: none; 
+}
