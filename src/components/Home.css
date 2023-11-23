@@ -18,7 +18,7 @@ h1 {
 
 .home:before {
   content: '';
-  background: url("https://wallpaperaccess.com/full/445408.jpg") no-repeat center center/cover;
+  background: url("https://wallpaperaccess.com/full/445408.jpg") repeat-x center center/cover;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -37,8 +37,26 @@ h1 {
   font-size: 1.2rem;
   border-radius: 25px;
   border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(232, 169, 169, 0.1);
+  color: #f8f8f8;
+}
+
+.home select {
+  padding: .7rem 1.5rem;
+  font-size: .9rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
   background: rgba(255,255,255, 0.1);
   color: #f8f8f8;
+}
+
+.home select option {
+  padding: .7rem 1.5rem;
+  font-size: .9rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #070000;
 }
 
 ::placeholder {

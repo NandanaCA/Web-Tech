@@ -4,9 +4,8 @@ export const Navbar=()=> {
     return (
         <nav>
             <Link to='/'>Home</Link>
-            <Link to='/Report'>Report</Link>
-            <Link to='/Trends'>Trends</Link>
-            <Link to='/Map'>Map</Link>
+            <Link to='/Report'>Forecast</Link>
+            <Link to='/News'>News</Link>
         </nav>
     )
 }

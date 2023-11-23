@@ -1,9 +1,9 @@
 import { Routes,Route } from "react-router-dom"
 import {Home} from './components/Home'
 import {Report} from './components/Report'
-import {Trends} from './components/Trends'
 import {Map} from './components/Map'
 import {Navbar} from './components/Navbar'
+import {News} from './components/News'
 
 
 function App()
@@ -14,7 +14,7 @@ function App()
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='Report' element={<Report/>}></Route>
-      <Route path='Trends' element={<Trends/>}></Route>
+      <Route path='News' element={<News/>}></Route>
       <Route path='Map' element={<Map/>}></Route>
     </Routes>
     </>
